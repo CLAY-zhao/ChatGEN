@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# modelscope
+*.bin
+
+# sql
+*.sql
+
 # Distribution / packaging
 .Python
 build/
