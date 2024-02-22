@@ -6,9 +6,13 @@
     :router="true"
     style="padding: 0 10px;"
   >
-    <el-menu-item index="dashboard">基本问答</el-menu-item>
+    <el-sub-menu>
+      <template #title>便利工具</template>
+      <el-menu-item index="dashboard">基本问答</el-menu-item>
+      <el-menu-item index="magnet">磁力搜索</el-menu-item>
+    </el-sub-menu>
     <el-menu-item index="settings">全局配置</el-menu-item>
-    <el-menu-item index="4">关于我</el-menu-item>
+    <el-menu-item index="about">关于我</el-menu-item>
   </el-menu>
   <div class="container">
     <el-card class="box-card">

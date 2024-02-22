@@ -15,6 +15,11 @@ const routes = [
         component: () => import('@/views/dashboard/index')
       },
       {
+        path: 'magnet',
+        name: 'Magnet',
+        component: () => import('@/views/magnet/index')
+      },
+      {
         path: 'settings',
         name: 'Settings',
         component: () => import('@/views/settings/index')
